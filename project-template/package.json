@@ -1,7 +1,4 @@
 {
-  "name": "midaas-website",
-  "version": "0.0.1",
-  "description": "Website for visualizing and exploring Census income data.",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -14,13 +11,5 @@
   },
   "scripts": {
     "start": "grunt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/presidential-innovation-fellows/midaas-website.git"
-  },
-  "bugs": {
-    "url": "https://github.com/presidential-innovation-fellows/midaas-website/issues"
-  },
-  "homepage": "https://github.com/presidential-innovation-fellows/midaas-website#readme"
+  }
 }

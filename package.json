@@ -1,0 +1,9 @@
+{
+  "name": "static-gen",
+  "version": "0.0.1",
+  "description": "A lightweight static site generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+}

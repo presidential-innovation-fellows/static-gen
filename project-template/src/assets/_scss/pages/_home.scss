@@ -1,0 +1,11 @@
+.pages-home {
+
+  .chart-widget {
+    @include span-columns(8);
+    position: relative;
+  }
+
+  .row {
+    @include clearfix;
+  }
+}

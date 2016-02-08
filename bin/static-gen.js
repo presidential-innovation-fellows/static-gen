@@ -2,17 +2,17 @@
 
 'use strict';
 
-let path      = require('path');
-let exec      = require('child_process').exec;
-let async     = require('async');
-let fs        = require('fs-extra');
-// let argv      = require('minimist')(process.argv.slice(2));
+var path      = require('path');
+var exec      = require('child_process').exec;
+var async     = require('async');
+var fs        = require('fs-extra');
+// var argv      = require('minimist')(process.argv.slice(2));
 
-let templateDir = path.resolve(__dirname, "..", "project-template");
-let workingDir = process.cwd();
+var templateDir = path.resolve(__dirname, "..", "project-template");
+var workingDir = process.cwd();
 
-let run = function(cmd, callback){
-  let child = exec(cmd, function(err, stdout, stderr) {
+var run = function(cmd, callback){
+  var child = exec(cmd, function(err, stdout, stderr) {
     if (stderr !== null) {
       console.error('' + stderr);
     }

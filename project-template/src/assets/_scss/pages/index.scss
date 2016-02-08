@@ -1,0 +1,20 @@
+.pages-index {
+
+  a {
+    color: $color-primary;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: darken($color-primary, 10);
+    }
+  }
+
+  code {
+    background-color: lighten($color-gray-light, 20);
+  }
+
+  h1 {
+    color: $color-primary-darker;
+  }
+}

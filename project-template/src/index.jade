@@ -1,6 +1,45 @@
-doctype html
-html
-  head
-    title static-gen
-  body
-    h1 static-gen page
+include modules/_head.jade
+body.pages-index
+  section.usa-grid
+    .usa-width-two-thirds
+      h1 Welcome to Static-gen!
+      p To get started, you can edit the contents of this file in the 
+        code
+          | /src
+        |  directory.
+      p To add sub-pages without having 
+        code
+          | .html
+        |  trailing in the url, create a directory for each new page and add
+        | a 
+        code
+          | index.html
+        |  file to each directory.
+      p
+        | Static-gen supports for partials. You can place Partials in
+        | the 
+        code
+          | /src/modules
+        |  directory, and add them like so: 
+        code
+          | include modules/_head.jade
+        | . Be sure to prepend each file name with 
+        code
+          | _
+        |  to ensure they are recognized as partials.
+      p
+        | For custom page styles, we prefer to add them to the pages directory
+        | located in 
+        code
+          | /src/assets/_scss/pages
+        | .
+      p Be sure to import each new SASS file in the 
+        code
+          | /src/assets/css/main.scss
+        |  file.
+      p
+        | For more information on the Draft U.S. Web Design Standards, visit 
+        a(href="https://playbook.cio.gov/designstandards/", target="_blank")
+          | their website
+        | .
+      p Happy coding!

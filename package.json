@@ -2,8 +2,14 @@
   "name": "static-gen",
   "version": "0.0.1",
   "description": "A lightweight static site generator.",
-  "main": "index.js",
-  "scripts": {
-    "test": "grunt"
+  "main": "static-gen.js",
+  "preferGlobal": "true",
+  "bin": {
+    "static-gen": "bin/static-gen.js"
   },
+  "devDependencies": {
+    "async": "^1.5.2",
+    "fs-extra": "^0.26.5",
+    "minimist": "^1.2.0"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "static-gen",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A lightweight static site generator.",
   "main": "static-gen.js",
   "preferGlobal": "true",
